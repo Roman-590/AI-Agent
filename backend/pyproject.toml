@@ -1,0 +1,11 @@
+[project]
+name = "voice-ai-interviewer"
+version = "0.1.0"
+description = "Voice AI Interviewer service"
+requires-python = ">=3.11"
+
+dependencies = [
+  "fastapi",
+  "uvicorn[standard]",
+  "pydantic",
+]
